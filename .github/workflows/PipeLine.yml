@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main  
+      - master  
 
 env:
   AZURE_FUNCTIONAPP_NAME: function-res  # set this to your application's namess
