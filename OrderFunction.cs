@@ -94,7 +94,7 @@ namespace MenuFunction
                 {
                     RowKey = filename,
                     PartitionKey = "Order",
-                    Status = "Processed",
+                    Status = "Failed",
                     TotalPrice = Price,
                 };
 
